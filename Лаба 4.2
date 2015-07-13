@@ -1,0 +1,70 @@
+# PR1_Shutov_lub_rub_4
+<script>
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="Root">
+<xs:complexType>
+<xs:choice maxOccurs="unbounded">
+<xs:element name="Thing" minOccurs="0" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="IDThing" type="xs:string" />
+<xs:element name="Count_Thing" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:choice>
+</xs:complexType>
+</xs:element>
+</xs:schema>
+</script>
+<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns="XSD1.xsd"> Справочник оборудования/приборов <!—обратите внимание на ссылку на xsd —> <br />
+
+<Thing> <table border="1"> <tr>
+<td>Код прибора</td>
+<td>Название прибора</td>
+<td><IDThing>Тип прибора</IDThing></td>
+<td><IDThing>Дата производства</IDThing></td>
+<td><IDThing>Материально
+ответственное лицо</IDThing></td>
+</tr>
+<tr>
+<td><Count_Thing>1</Count_Thing></td>
+<td><IDThing>Автомобиль</IDThing></td>
+<td><IDThing>механика</IDThing></td>
+<td><IDThing>2 июля 1996 года</IDThing></td>
+<td><IDThing>Пупкин Василий Георгиевич</IDThing></td>
+</tr>
+<tr>
+<td><Count_Thing>2</Count_Thing></td>
+<td><IDThing>Стиральная машина</IDThing></td>
+<td><IDThing>бытовая техника</IDThing></td>
+<td><IDThing>1 марта 2010 года</IDThing></td>
+<td><IDThing>Троянов Валерий Александрович</IDThing></td>
+</tr>
+<tr>
+<td><Count_Thing>3</Count_Thing></td>
+<td><IDThing>Компьютер</IDThing></td>
+<td><IDThing>Бытовая техника</IDThing></td>
+<td><IDThing>5 августа 2014 года</IDThing></td>
+<td><IDThing>изобретатели</IDThing></td>
+</tr>
+<tr>
+<td><Count_Thing>4</Count_Thing></td>
+<td><IDThing>Холодильник</IDThing></td>
+<td><IDThing>Бытовая техника</IDThing></td>
+<td><IDThing>10 января 2011 года</IDThing></td>
+<td><IDThing>Рябов Павел Васильевич</IDThing></td>
+</tr>
+<tr>
+<td><Count_Thing>5</Count_Thing></td>
+<td><IDThing>Диван</IDThing></td>
+<td><IDThing>Мебель</IDThing></td>
+<td><IDThing>18 сенятбря 2013 года</IDThing></td>
+<td><IDThing>Пантелеев Максим Сергеевич</IDThing></td>
+</tr>
+</table>
+
+</Thing>
+</Root>
